@@ -15,6 +15,7 @@
     <listeners>
     <listener class-name="utilities.ExtentReportManager"></listener>
     </listeners>
+    
 
   <test thread-count="5" name="Test">
   
@@ -22,11 +23,7 @@
   <parameter name="browser" value="chrome"></parameter>
   
   <classes>
-<!--      <class name="testCases.TC0001_AccountRegistrationTest"/>-->
-<!--      <class name="testCases.TC0002_AccountLogin"></class> -->
-<!--      <class name="testCases.TC0003_LoginWithExcelDataTest"></class>-->
-<!--      <class name="testCases.TC0004_AddToCartTest"></class>-->
-      <class name="testCases.TC0005_AddMultipleProductsToCartTest"></class>
+  <class name="testCases.TC01_ValidLogin"></class>
     </classes>
   
   </test> <!-- Test -->
