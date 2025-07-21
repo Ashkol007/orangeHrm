@@ -1,0 +1,6 @@
+17:36:48.952 [main] INFO  testCases.LoginTests - -----------Login Valid TestCase ------------
+17:36:54.147 [main] INFO  testCases.LoginTests - ---------LoginValid Testcase Passed---------
+17:36:54.213 [main] INFO  testCases.LoginTests - -----------Login EmptyFields TestCase Start------------
+17:36:54.887 [main] INFO  testCases.LoginTests - ---------Login EmptyFields Testcase Passed---------
+17:36:54.898 [main] INFO  testCases.LoginTests - -----------Login InValid TestCase Start------------
+17:36:56.867 [main] INFO  testCases.LoginTests - ---------LoginInValid Testcase Passed---------

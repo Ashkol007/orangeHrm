@@ -1,0 +1,5 @@
+03:12:22.495 [main] INFO  testCases.AdminTests - -----------Load Admin page TestCase Start------------
+03:12:27.535 [main] INFO  testCases.AdminTests - ---------Load Admin page Testcase Passed---------
+03:12:33.072 [main] INFO  testCases.AdminTests - -----------Search Valid User for Admin TestCase Start------------
+03:12:38.704 [main] INFO  testCases.AdminTests - ---------Search Valid User for Admin Testcase Passed---------
+03:12:44.244 [main] INFO  testCases.AdminTests - -----------Search Valid User for Admin TestCase Start------------

@@ -17,6 +17,9 @@ import com.aventstack.extentreports.Status;
 import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 import com.aventstack.extentreports.reporter.configuration.Theme;
 
+import annotations.TestCaseId;
+import java.lang.reflect.Method;
+
 import testCases.BaseTestcase;
 
 public class ExtentReportManager implements ITestListener {
@@ -27,26 +30,38 @@ public class ExtentReportManager implements ITestListener {
 	
 	String repName;
 	
+	private String getTestCaseId(ITestResult result) {
+	    try {
+	        Method method = result.getMethod().getConstructorOrMethod().getMethod();
+	        if (method.isAnnotationPresent(TestCaseId.class)) {
+	            return method.getAnnotation(TestCaseId.class).value();
+	        }
+	    } catch (Exception ignored) {}
+	    return "N/A";
+	}
+	
 	public void onStart(ITestContext testContext) {
 		
 //		SimpleDateFormat df = new SimpleDateFormat("yyyy.MM.dd.HH.mm.ss");
 //		Date dt = new Date();
 //		String currentdatetimestamp = df.format(dt);
 		
+		 
+		
 		
 		String timestamp = new SimpleDateFormat("yyyy.MM.dd.HH.mm.ss").format(new Date());
 		repName = "Test-Report-"+timestamp+".html";
 		sparkReporter = new ExtentSparkReporter(".\\reports\\"+repName);
 		
-		sparkReporter.config().setDocumentTitle("opencart Automation Report");
-		sparkReporter.config().setReportName("openCart Functional Testing");
+		sparkReporter.config().setDocumentTitle("orangeHrm Automation Report");
+		sparkReporter.config().setReportName("orangeHrm Functional Testing");
 		sparkReporter.config().setTheme(Theme.DARK);
 		
 		extent = new ExtentReports();
 		extent.attachReporter(sparkReporter);
-		extent.setSystemInfo("Application", "opencart");
+		extent.setSystemInfo("Application", "orangeHrm");
 		extent.setSystemInfo("Module","Admin");
-		extent.setSystemInfo("Sub module","Customers");
+		extent.setSystemInfo("Sub module","Human Resources");
 		extent.setSystemInfo("UserName", System.getProperty("user.name"));
 		extent.setSystemInfo("Environment", "QA");
 		
@@ -68,15 +83,27 @@ public class ExtentReportManager implements ITestListener {
 	
 	public void onTestSuccess(ITestResult result) {
 		
-		test = extent.createTest(result.getTestClass().getName());
+		test = extent.createTest(result.getMethod().getDescription());
+		
 		test.assignCategory(result.getMethod().getGroups());
+		test.assignCategory(result.getMethod().getMethodName());
+		
+		String tcId = result.getMethod().getDescription();
+		test.info("📄 TestCase ID: " + tcId);
+		
 		test.log(Status.PASS, result.getName()+"got successfully executed");
 		
 		}
 	
 	public void onTestFailure(ITestResult result) {
-		test = extent.createTest(result.getTestClass().getName());
+        test = extent.createTest(result.getMethod().getDescription());
+		
 		test.assignCategory(result.getMethod().getGroups());
+		test.assignCategory(result.getMethod().getMethodName());
+
+		String tcId = result.getMethod().getDescription();
+		test.info("📄 TestCase ID: " + tcId);
+		
 		test.log(Status.FAIL, result.getName()+" got Failed");
 		test.log(Status.INFO, result.getThrowable().getMessage());
 		
@@ -92,8 +119,14 @@ public class ExtentReportManager implements ITestListener {
 	}
 	
 	public void onTestSkip(ITestResult result){
-		test = extent.createTest(result.getTestClass().getName());
+test = extent.createTest(result.getMethod().getDescription());
+		
 		test.assignCategory(result.getMethod().getGroups());
+		test.assignCategory(result.getMethod().getMethodName());
+
+		String tcId = result.getMethod().getDescription();
+		test.info("📄 TestCase ID: " + tcId);
+		
 		test.log(Status.SKIP,result.getName()+" test skipped");
 		test.log(Status.INFO, result.getThrowable().getMessage());
 		

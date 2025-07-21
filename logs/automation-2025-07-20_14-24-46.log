@@ -1,0 +1,4 @@
+14:24:52.517 [main] INFO  testCases.LoginTests - -----------Login Valid TestCase ------------
+14:24:56.863 [main] INFO  testCases.LoginTests - ---------LoginValid Testcase Passed---------
+14:24:56.898 [main] INFO  testCases.LoginTests - -----------Login InValid TestCase Start------------
+14:24:59.118 [main] INFO  testCases.LoginTests - ---------LoginInValid Testcase Passed---------
