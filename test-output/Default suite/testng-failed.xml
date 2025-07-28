@@ -5,10 +5,11 @@
     <classes>
       <class name="testCases.AdminTests">
         <methods>
+          <include name="addUser"/>
           <include name="searchIinvalidUser"/>
           <include name="setup"/>
-          <include name="checkUserRoleForAdmin"/>
           <include name="teardown"/>
+          <include name="checkUserRoleForAdmin"/>
           <include name="LoadAdminPage"/>
         </methods>
       </class> <!-- testCases.AdminTests -->

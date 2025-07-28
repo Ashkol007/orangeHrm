@@ -53,6 +53,7 @@ public class BaseTestcase {
             System.out.println(">> AfterMethod: Closing browser");
             driver.quit();
         }
+		driver.close();
 	}
 	
 	

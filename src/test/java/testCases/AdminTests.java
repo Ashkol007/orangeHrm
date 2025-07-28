@@ -6,6 +6,7 @@ import org.testng.annotations.Test;
 import pageObject.AdminPage;
 import pageObject.DashBoardPage;
 import pageObject.LoginPage;
+import pageObject.UserManagementPage;
 
 public class AdminTests extends BaseTestcase{
 	
@@ -52,7 +53,7 @@ public class AdminTests extends BaseTestcase{
 		
 	}
 	
-	@Test(priority=3,description="TC12 -- Search InValid User",groups={"Master","Sanity"})
+	@Test(priority=3,description="TC12 -- Search InValid User",groups={"Master"})
 	public void searchIinvalidUser() {
 		
 		logger.info("-----------Search Valid User for Admin TestCase Start------------");
@@ -73,6 +74,35 @@ public class AdminTests extends BaseTestcase{
                  Assert.assertTrue(ap.isInvalidUser(), "Toast message Records Not Found for Wrong user on admin page.");
 
 		    logger.info("---------Search InValid User for Admin Testcase Passed---------");
+		
+	}
+	
+	@Test(priority=4,description="TC13 -- add User from Usermanagement",groups={"Master","Sanity"})
+	public void addUser() {
+		
+		logger.info("-----------add User for Admin TestCase Start------------");
+		LoginPage lp = new LoginPage(driver);
+		          lp.setUsername("Admin");
+		          lp.setUserpwd("admin123");
+	              lp.clickLogin();
+	              
+        DashBoardPage dbp = new DashBoardPage(driver);
+                      dbp.goToAdminPage();
+                      
+        UserManagementPage ump = new UserManagementPage(driver);
+                       ump.clickToAddUser();
+                       ump.selectUserRole();
+                       ump.selectEnableStatus();
+                       ump.setPassword("Admin12345");
+                       ump.setEmployeeName();
+                       ump.setUserName("admin12345");
+                       ump.setConfirmPassword("Admin12345");
+                       ump.clickSaveButton();
+                       
+                  Assert.assertEquals(ump.isSuccessToast(), true);
+                 
+
+		    logger.info("---------add User for Admin Testcase Passed---------");
 		
 	}
 

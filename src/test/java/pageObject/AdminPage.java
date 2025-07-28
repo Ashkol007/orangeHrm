@@ -23,19 +23,6 @@ public class AdminPage extends BasePage {
 	@FindBy(xpath="//div[@class='oxd-toast-content oxd-toast-content--info']//p[2]") WebElement Toast_NoRecordFound;
 	@FindBy(xpath="//input[@class='oxd-input oxd-input--focus']") WebElement Input_Username;
 	
-	@FindBy(xpath="xpath=\"//button[normalize-space()='Add']\"") WebElement AddUser_Btn;
-	@FindBy(xpath="//label[text()='User Role']/ancestor::div[contains(@class,'oxd-input-group')] /following-sibling::div//i[contains(@class,'oxd-select-text--arrow')]")
-	WebElement UserRole_Dropdown_Btn;
-	@FindBy(xpath="//label[text()='Status']/ancestor::div[contains(@class,'oxd-input-group')] /following-sibling::div//i[contains(@class,'oxd-select-text--arrow')]")
-	WebElement Status_Dropdown_Btn;
-	@FindBy(xpath="(//input[@type='password'])[1]") WebElement Password_Input;
-	@FindBy(xpath="//label[contains(text(),'Employee Name')]/ancestor::div[contains(@class,'oxd-input-group')]//input")
-	WebElement Employee_Name_Input;
-	@FindBy(xpath="//label[contains(text(),'Username')]/ancestor::div[contains(@class,'oxd-input-group')]//input")
-	WebElement Username_Input;
-	@FindBy(xpath="xpath=\"//input[@class='oxd-input oxd-input--focus']\"") WebElement Confirm_Pwd_Input;
-	@FindBy(xpath="xpath=\"//button[normalize-space()='Save']\"") WebElement Save_Btn;
-	@FindBy(xpath="//div[@role='listbox']//div[@role='option']") List<WebElement> Employee_Name_Dropdown;
 	
 	
 	public Boolean isAdminHeading(){
@@ -75,9 +62,7 @@ public class AdminPage extends BasePage {
 		
 	}
 	
-	public void addUser() {
-		AddUser_Btn.click();
-	}
+
 	
 
 }

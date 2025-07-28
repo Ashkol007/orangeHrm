@@ -9,12 +9,14 @@
     <parameter name="browser" value="chrome"/>
     <groups>
       <run>
+        <include name="Master"/>
         <include name="Sanity"/>
       </run>
     </groups>
     <classes>
       <class name="testCases.AdminTests">
         <methods>
+          <include name="addUser"/>
           <include name="searchIinvalidUser"/>
           <include name="setup"/>
         </methods>

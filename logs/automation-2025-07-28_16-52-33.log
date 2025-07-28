@@ -1,0 +1,6 @@
+16:52:42.764 [main] INFO  testCases.AdminTests - -----------Load Admin page TestCase Start------------
+16:52:48.602 [main] INFO  testCases.AdminTests - ---------Load Admin page Testcase Passed---------
+16:52:53.629 [main] INFO  testCases.AdminTests - -----------Search Valid User for Admin TestCase Start------------
+16:52:58.909 [main] INFO  testCases.AdminTests - ---------Search Valid User for Admin Testcase Passed---------
+16:53:03.636 [main] INFO  testCases.AdminTests - -----------Search Valid User for Admin TestCase Start------------
+16:53:23.804 [main] INFO  testCases.AdminTests - -----------add User for Admin TestCase Start------------
