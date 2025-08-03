@@ -1,0 +1,18 @@
+19:06:54.355 [main] INFO  testCases.AdminTests - -----------Load Admin page TestCase Start------------
+19:06:58.944 [main] INFO  testCases.AdminTests - ---------Load Admin page Testcase Passed---------
+19:07:03.406 [main] INFO  testCases.AdminTests - -----------Search Valid User for Admin TestCase Start------------
+19:07:08.847 [main] INFO  testCases.AdminTests - ---------Search Valid User for Admin Testcase Passed---------
+19:07:13.200 [main] INFO  testCases.AdminTests - -----------Search Valid User for Admin TestCase Start------------
+19:07:32.676 [main] INFO  testCases.AdminTests - -----------add User for Admin TestCase Start------------
+19:08:05.218 [main] INFO  testCases.LoginTests - -----------Login Valid TestCase ------------
+19:08:08.201 [main] INFO  testCases.LoginTests - ---------LoginValid Testcase Passed---------
+19:08:12.758 [main] INFO  testCases.LoginTests - -----------Login InValid TestCase Start------------
+19:08:16.416 [main] INFO  testCases.LoginTests - ---------LoginInValid Testcase Passed---------
+19:08:21.439 [main] INFO  testCases.LoginTests - -----------Login EmptyFields TestCase Start------------
+19:08:24.256 [main] INFO  testCases.LoginTests - ---------Login EmptyFields Testcase Passed---------
+19:08:28.720 [main] INFO  testCases.LoginTests - -----------Login User Fields TestCase Start------------
+19:08:29.773 [main] INFO  testCases.LoginTests - ---------Login User Fields Testcase Passed---------
+19:08:36.358 [main] INFO  testCases.LoginTests - -----------Login Password Fields TestCase Start------------
+19:08:37.268 [main] INFO  testCases.LoginTests - ---------Login Password Fields Testcase Passed---------
+19:08:42.157 [main] INFO  testCases.LoginTests - -----------Url Redirection TestCase Start------------
+19:08:45.758 [main] INFO  testCases.LoginTests - ---------Url Redirection Testcase Passed---------

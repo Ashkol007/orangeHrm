@@ -2,27 +2,27 @@
 <testng-results ignored="0" total="10" passed="8" failed="2" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-08-03T18:35:53 IST" name="Surefire suite" finished-at="2025-08-03T18:37:44 IST" duration-ms="111194">
+  <suite started-at="2025-08-03T19:06:47 IST" name="Surefire suite" finished-at="2025-08-03T19:08:45 IST" duration-ms="118591">
     <groups>
       <group name="Master">
-        <method signature="AdminTests.LoadAdminPage()[pri:1, instance:testCases.AdminTests@475e586c]" name="LoadAdminPage" class="testCases.AdminTests"/>
-        <method signature="LoginTests.testvalidLogin()[pri:1, instance:testCases.LoginTests@79ad8b2f]" name="testvalidLogin" class="testCases.LoginTests"/>
-        <method signature="AdminTests.checkUserRoleForAdmin()[pri:2, instance:testCases.AdminTests@475e586c]" name="checkUserRoleForAdmin" class="testCases.AdminTests"/>
-        <method signature="LoginTests.testInValidLogin()[pri:2, instance:testCases.LoginTests@79ad8b2f]" name="testInValidLogin" class="testCases.LoginTests"/>
-        <method signature="AdminTests.searchIinvalidUser()[pri:3, instance:testCases.AdminTests@475e586c]" name="searchIinvalidUser" class="testCases.AdminTests"/>
-        <method signature="LoginTests.testEmptyFieldsLogin()[pri:3, instance:testCases.LoginTests@79ad8b2f]" name="testEmptyFieldsLogin" class="testCases.LoginTests"/>
-        <method signature="AdminTests.addUser()[pri:4, instance:testCases.AdminTests@475e586c]" name="addUser" class="testCases.AdminTests"/>
-        <method signature="LoginTests.testOnlyUserFieldsLogin()[pri:4, instance:testCases.LoginTests@79ad8b2f]" name="testOnlyUserFieldsLogin" class="testCases.LoginTests"/>
-        <method signature="LoginTests.testOnlyPasswordFieldsLogin()[pri:5, instance:testCases.LoginTests@79ad8b2f]" name="testOnlyPasswordFieldsLogin" class="testCases.LoginTests"/>
-        <method signature="LoginTests.testUrlDirection()[pri:6, instance:testCases.LoginTests@79ad8b2f]" name="testUrlDirection" class="testCases.LoginTests"/>
+        <method signature="AdminTests.LoadAdminPage()[pri:1, instance:testCases.AdminTests@20d28811]" name="LoadAdminPage" class="testCases.AdminTests"/>
+        <method signature="LoginTests.testvalidLogin()[pri:1, instance:testCases.LoginTests@1622f1b]" name="testvalidLogin" class="testCases.LoginTests"/>
+        <method signature="AdminTests.checkUserRoleForAdmin()[pri:2, instance:testCases.AdminTests@20d28811]" name="checkUserRoleForAdmin" class="testCases.AdminTests"/>
+        <method signature="LoginTests.testInValidLogin()[pri:2, instance:testCases.LoginTests@1622f1b]" name="testInValidLogin" class="testCases.LoginTests"/>
+        <method signature="AdminTests.searchIinvalidUser()[pri:3, instance:testCases.AdminTests@20d28811]" name="searchIinvalidUser" class="testCases.AdminTests"/>
+        <method signature="LoginTests.testEmptyFieldsLogin()[pri:3, instance:testCases.LoginTests@1622f1b]" name="testEmptyFieldsLogin" class="testCases.LoginTests"/>
+        <method signature="AdminTests.addUser()[pri:4, instance:testCases.AdminTests@20d28811]" name="addUser" class="testCases.AdminTests"/>
+        <method signature="LoginTests.testOnlyUserFieldsLogin()[pri:4, instance:testCases.LoginTests@1622f1b]" name="testOnlyUserFieldsLogin" class="testCases.LoginTests"/>
+        <method signature="LoginTests.testOnlyPasswordFieldsLogin()[pri:5, instance:testCases.LoginTests@1622f1b]" name="testOnlyPasswordFieldsLogin" class="testCases.LoginTests"/>
+        <method signature="LoginTests.testUrlDirection()[pri:6, instance:testCases.LoginTests@1622f1b]" name="testUrlDirection" class="testCases.LoginTests"/>
       </group> <!-- Master -->
       <group name="Sanity">
-        <method signature="AdminTests.addUser()[pri:4, instance:testCases.AdminTests@475e586c]" name="addUser" class="testCases.AdminTests"/>
+        <method signature="AdminTests.addUser()[pri:4, instance:testCases.AdminTests@20d28811]" name="addUser" class="testCases.AdminTests"/>
       </group> <!-- Sanity -->
     </groups>
-    <test started-at="2025-08-03T18:35:53 IST" name="Surefire test" finished-at="2025-08-03T18:37:44 IST" duration-ms="111194">
+    <test started-at="2025-08-03T19:06:47 IST" name="Surefire test" finished-at="2025-08-03T19:08:45 IST" duration-ms="118591">
       <class name="testCases.AdminTests">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.AdminTests@475e586c]" started-at="2025-08-03T18:35:53 IST" name="setup" finished-at="2025-08-03T18:35:59 IST" duration-ms="5752" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.AdminTests@20d28811]" started-at="2025-08-03T19:06:47 IST" name="setup" finished-at="2025-08-03T19:06:54 IST" duration-ms="6863" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -38,11 +38,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="LoadAdminPage()[pri:1, instance:testCases.AdminTests@475e586c]" started-at="2025-08-03T18:35:59 IST" name="LoadAdminPage" description="TC10 -- Load Admin page" finished-at="2025-08-03T18:36:04 IST" duration-ms="5048" status="PASS">
+        <test-method signature="LoadAdminPage()[pri:1, instance:testCases.AdminTests@20d28811]" started-at="2025-08-03T19:06:54 IST" name="LoadAdminPage" description="TC10 -- Load Admin page" finished-at="2025-08-03T19:06:58 IST" duration-ms="4610" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoadAdminPage -->
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.AdminTests@475e586c]" started-at="2025-08-03T18:36:04 IST" name="setup" finished-at="2025-08-03T18:36:08 IST" duration-ms="4344" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.AdminTests@20d28811]" started-at="2025-08-03T19:06:58 IST" name="setup" finished-at="2025-08-03T19:07:03 IST" duration-ms="4453" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -58,11 +58,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="checkUserRoleForAdmin()[pri:2, instance:testCases.AdminTests@475e586c]" started-at="2025-08-03T18:36:08 IST" name="checkUserRoleForAdmin" description="TC11 -- Search Valid User" finished-at="2025-08-03T18:36:14 IST" duration-ms="5437" status="PASS">
+        <test-method signature="checkUserRoleForAdmin()[pri:2, instance:testCases.AdminTests@20d28811]" started-at="2025-08-03T19:07:03 IST" name="checkUserRoleForAdmin" description="TC11 -- Search Valid User" finished-at="2025-08-03T19:07:08 IST" duration-ms="5442" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkUserRoleForAdmin -->
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.AdminTests@475e586c]" started-at="2025-08-03T18:36:14 IST" name="setup" finished-at="2025-08-03T18:36:18 IST" duration-ms="4111" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.AdminTests@20d28811]" started-at="2025-08-03T19:07:08 IST" name="setup" finished-at="2025-08-03T19:07:13 IST" duration-ms="4351" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -78,32 +78,34 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="searchIinvalidUser()[pri:3, instance:testCases.AdminTests@475e586c]" started-at="2025-08-03T18:36:18 IST" name="searchIinvalidUser" description="TC12 -- Search InValid User" finished-at="2025-08-03T18:36:32 IST" duration-ms="14403" status="FAIL">
+        <test-method signature="searchIinvalidUser()[pri:3, instance:testCases.AdminTests@20d28811]" started-at="2025-08-03T19:07:13 IST" name="searchIinvalidUser" description="TC12 -- Search InValid User" finished-at="2025-08-03T19:07:28 IST" duration-ms="15082" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//input[@class='oxd-input oxd-input--focus']"}
   (Session info: chrome=138.0.7204.184)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.21.0', revision: '79ed462ef4'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [5fdfa53028126c21bd43265817736907, findElement {value=//input[@class='oxd-input oxd-input--focus'], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.184, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\dell\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64583}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64583/devtoo..., se:cdpVersion: 138.0.7204.184, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 5fdfa53028126c21bd43265817736907]]>
+Command: [03a101d969559a226fc6f798b51f8298, findElement {value=//input[@class='oxd-input oxd-input--focus'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.184, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\dell\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50505}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50505/devtoo..., se:cdpVersion: 138.0.7204.184, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 03a101d969559a226fc6f798b51f8298]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@class='oxd-input oxd-input--focus']"}
   (Session info: chrome=138.0.7204.184)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.21.0', revision: '79ed462ef4'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [5fdfa53028126c21bd43265817736907, findElement {value=//input[@class='oxd-input oxd-input--focus'], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.184, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\dell\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64583}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64583/devtoo..., se:cdpVersion: 138.0.7204.184, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 5fdfa53028126c21bd43265817736907
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+Command: [03a101d969559a226fc6f798b51f8298, findElement {value=//input[@class='oxd-input oxd-input--focus'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.184, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\dell\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50505}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50505/devtoo..., se:cdpVersion: 138.0.7204.184, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 03a101d969559a226fc6f798b51f8298
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
 at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
 at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
 at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
@@ -120,8 +122,10 @@ at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invok
 at jdk.proxy2/jdk.proxy2.$Proxy27.sendKeys(Unknown Source)
 at pageObject.AdminPage.setUserName(AdminPage.java:61)
 at testCases.AdminTests.searchIinvalidUser(AdminTests.java:70)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
 at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
 at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
@@ -130,7 +134,7 @@ at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInv
 at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
 at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
 at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 at org.testng.TestRunner.privateRun(TestRunner.java:741)
 at org.testng.TestRunner.run(TestRunner.java:616)
 at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
@@ -157,7 +161,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchIinvalidUser -->
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.AdminTests@475e586c]" started-at="2025-08-03T18:36:32 IST" name="setup" finished-at="2025-08-03T18:36:37 IST" duration-ms="4634" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.AdminTests@20d28811]" started-at="2025-08-03T19:07:28 IST" name="setup" finished-at="2025-08-03T19:07:32 IST" duration-ms="4384" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -173,7 +177,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="addUser()[pri:4, instance:testCases.AdminTests@475e586c]" started-at="2025-08-03T18:36:37 IST" name="addUser" description="TC13 -- add User from Usermanagement" finished-at="2025-08-03T18:37:03 IST" duration-ms="26430" status="FAIL">
+        <test-method signature="addUser()[pri:4, instance:testCases.AdminTests@20d28811]" started-at="2025-08-03T19:07:32 IST" name="addUser" description="TC13 -- add User from Usermanagement" finished-at="2025-08-03T19:08:00 IST" duration-ms="27947" status="FAIL">
           <exception class="org.openqa.selenium.TimeoutException">
             <message>
               <![CDATA[Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //p[normalize-space()='Success']' (tried for 10 second(s) with 500 milliseconds interval)]]>
@@ -184,8 +188,10 @@ at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.j
 at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
 at pageObject.UserManagementPage.isSuccessToast(UserManagementPage.java:89)
 at testCases.AdminTests.addUser(AdminTests.java:102)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
 at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
 at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
@@ -194,7 +200,7 @@ at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInv
 at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
 at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
 at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 at org.testng.TestRunner.privateRun(TestRunner.java:741)
 at org.testng.TestRunner.run(TestRunner.java:616)
 at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
@@ -219,14 +225,16 @@ Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable t
   (Session info: chrome=138.0.7204.184)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.21.0', revision: '79ed462ef4'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [856d98f522c5397e6514ddc98cb029eb, findElement {value=//p[normalize-space()='Success'], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.184, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\dell\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64632}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64632/devtoo..., se:cdpVersion: 138.0.7204.184, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 856d98f522c5397e6514ddc98cb029eb
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+Command: [5fb646effe664ec5fb202fae03049cf2, findElement {value=//p[normalize-space()='Success'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.184, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\dell\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50551}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50551/devtoo..., se:cdpVersion: 138.0.7204.184, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5fb646effe664ec5fb202fae03049cf2
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
 at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
 at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
 at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
@@ -245,30 +253,30 @@ at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedCo
 at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
 at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287)
 at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
-... 33 more
+... 35 more
 ]]>
             </full-stacktrace>
           </exception> <!-- org.openqa.selenium.TimeoutException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addUser -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.AdminTests@475e586c]" started-at="2025-08-03T18:37:03 IST" name="teardown" finished-at="2025-08-03T18:37:04 IST" duration-ms="786" status="FAIL">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.AdminTests@20d28811]" started-at="2025-08-03T19:08:00 IST" name="teardown" finished-at="2025-08-03T19:08:00 IST" duration-ms="234" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchSessionException">
             <message>
               <![CDATA[Session ID is null. Using WebDriver after calling quit()?
 Build info: version: '4.21.0', revision: '79ed462ef4'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
 Command: [null, close {}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.184, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\dell\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64632}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64632/devtoo..., se:cdpVersion: 138.0.7204.184, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.184, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\dell\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50551}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50551/devtoo..., se:cdpVersion: 138.0.7204.184, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
 Build info: version: '4.21.0', revision: '79ed462ef4'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
 Command: [null, close {}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.184, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\dell\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64632}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64632/devtoo..., se:cdpVersion: 138.0.7204.184, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.184, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\dell\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50551}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50551/devtoo..., se:cdpVersion: 138.0.7204.184, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
 at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:151)
 at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
 at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
@@ -277,8 +285,10 @@ at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:591)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:595)
 at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:405)
 at testCases.BaseTestcase.teardown(BaseTestcase.java:57)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
 at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
@@ -286,7 +296,7 @@ at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker
 at org.testng.internal.invokers.TestMethodWorker.invokeAfterClassConfigurations(TestMethodWorker.java:238)
 at org.testng.internal.invokers.TestMethodWorker.invokeAfterClassMethods(TestMethodWorker.java:223)
 at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:137)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 at org.testng.TestRunner.privateRun(TestRunner.java:741)
 at org.testng.TestRunner.run(TestRunner.java:616)
 at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
@@ -315,7 +325,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
         </test-method> <!-- teardown -->
       </class> <!-- testCases.AdminTests -->
       <class name="testCases.LoginTests">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.LoginTests@79ad8b2f]" started-at="2025-08-03T18:37:04 IST" name="setup" finished-at="2025-08-03T18:37:10 IST" duration-ms="5943" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.LoginTests@1622f1b]" started-at="2025-08-03T19:08:00 IST" name="setup" finished-at="2025-08-03T19:08:05 IST" duration-ms="4352" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -331,11 +341,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="testvalidLogin()[pri:1, instance:testCases.LoginTests@79ad8b2f]" started-at="2025-08-03T18:37:10 IST" name="testvalidLogin" description="TC01 -- Login Valid" finished-at="2025-08-03T18:37:13 IST" duration-ms="2487" status="PASS">
+        <test-method signature="testvalidLogin()[pri:1, instance:testCases.LoginTests@1622f1b]" started-at="2025-08-03T19:08:05 IST" name="testvalidLogin" description="TC01 -- Login Valid" finished-at="2025-08-03T19:08:08 IST" duration-ms="2985" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testvalidLogin -->
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.LoginTests@79ad8b2f]" started-at="2025-08-03T18:37:13 IST" name="setup" finished-at="2025-08-03T18:37:17 IST" duration-ms="4587" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.LoginTests@1622f1b]" started-at="2025-08-03T19:08:08 IST" name="setup" finished-at="2025-08-03T19:08:12 IST" duration-ms="4553" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -351,11 +361,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="testInValidLogin()[pri:2, instance:testCases.LoginTests@79ad8b2f]" started-at="2025-08-03T18:37:17 IST" name="testInValidLogin" description="TC02 -- Login Invalid Wrong Password" finished-at="2025-08-03T18:37:20 IST" duration-ms="2687" status="PASS">
+        <test-method signature="testInValidLogin()[pri:2, instance:testCases.LoginTests@1622f1b]" started-at="2025-08-03T19:08:12 IST" name="testInValidLogin" description="TC02 -- Login Invalid Wrong Password" finished-at="2025-08-03T19:08:16 IST" duration-ms="3659" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testInValidLogin -->
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.LoginTests@79ad8b2f]" started-at="2025-08-03T18:37:20 IST" name="setup" finished-at="2025-08-03T18:37:25 IST" duration-ms="4813" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.LoginTests@1622f1b]" started-at="2025-08-03T19:08:16 IST" name="setup" finished-at="2025-08-03T19:08:21 IST" duration-ms="5018" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -371,11 +381,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="testEmptyFieldsLogin()[pri:3, instance:testCases.LoginTests@79ad8b2f]" started-at="2025-08-03T18:37:25 IST" name="testEmptyFieldsLogin" description="TC03 -- Login with Empty Fields " finished-at="2025-08-03T18:37:26 IST" duration-ms="826" status="PASS">
+        <test-method signature="testEmptyFieldsLogin()[pri:3, instance:testCases.LoginTests@1622f1b]" started-at="2025-08-03T19:08:21 IST" name="testEmptyFieldsLogin" description="TC03 -- Login with Empty Fields " finished-at="2025-08-03T19:08:24 IST" duration-ms="2817" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testEmptyFieldsLogin -->
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.LoginTests@79ad8b2f]" started-at="2025-08-03T18:37:26 IST" name="setup" finished-at="2025-08-03T18:37:30 IST" duration-ms="4803" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.LoginTests@1622f1b]" started-at="2025-08-03T19:08:24 IST" name="setup" finished-at="2025-08-03T19:08:28 IST" duration-ms="4462" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -391,11 +401,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="testOnlyUserFieldsLogin()[pri:4, instance:testCases.LoginTests@79ad8b2f]" started-at="2025-08-03T18:37:30 IST" name="testOnlyUserFieldsLogin" description="TC04 -- Login with only User Fields " finished-at="2025-08-03T18:37:31 IST" duration-ms="793" status="PASS">
+        <test-method signature="testOnlyUserFieldsLogin()[pri:4, instance:testCases.LoginTests@1622f1b]" started-at="2025-08-03T19:08:28 IST" name="testOnlyUserFieldsLogin" description="TC04 -- Login with only User Fields " finished-at="2025-08-03T19:08:29 IST" duration-ms="1054" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testOnlyUserFieldsLogin -->
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.LoginTests@79ad8b2f]" started-at="2025-08-03T18:37:31 IST" name="setup" finished-at="2025-08-03T18:37:36 IST" duration-ms="4694" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.LoginTests@1622f1b]" started-at="2025-08-03T19:08:29 IST" name="setup" finished-at="2025-08-03T19:08:36 IST" duration-ms="6583" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -411,11 +421,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="testOnlyPasswordFieldsLogin()[pri:5, instance:testCases.LoginTests@79ad8b2f]" started-at="2025-08-03T18:37:36 IST" name="testOnlyPasswordFieldsLogin" description="TC05 -- Login with only Password Fields " finished-at="2025-08-03T18:37:37 IST" duration-ms="754" status="PASS">
+        <test-method signature="testOnlyPasswordFieldsLogin()[pri:5, instance:testCases.LoginTests@1622f1b]" started-at="2025-08-03T19:08:36 IST" name="testOnlyPasswordFieldsLogin" description="TC05 -- Login with only Password Fields " finished-at="2025-08-03T19:08:37 IST" duration-ms="910" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testOnlyPasswordFieldsLogin -->
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.LoginTests@79ad8b2f]" started-at="2025-08-03T18:37:37 IST" name="setup" finished-at="2025-08-03T18:37:41 IST" duration-ms="4842" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.LoginTests@1622f1b]" started-at="2025-08-03T19:08:37 IST" name="setup" finished-at="2025-08-03T19:08:42 IST" duration-ms="4887" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -431,27 +441,27 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="testUrlDirection()[pri:6, instance:testCases.LoginTests@79ad8b2f]" started-at="2025-08-03T18:37:41 IST" name="testUrlDirection" description="TC06 -- Url Redirection " finished-at="2025-08-03T18:37:44 IST" duration-ms="2724" status="PASS">
+        <test-method signature="testUrlDirection()[pri:6, instance:testCases.LoginTests@1622f1b]" started-at="2025-08-03T19:08:42 IST" name="testUrlDirection" description="TC06 -- Url Redirection " finished-at="2025-08-03T19:08:45 IST" duration-ms="3603" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testUrlDirection -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.LoginTests@79ad8b2f]" started-at="2025-08-03T18:37:44 IST" name="teardown" finished-at="2025-08-03T18:37:44 IST" duration-ms="190" status="FAIL">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.LoginTests@1622f1b]" started-at="2025-08-03T19:08:45 IST" name="teardown" finished-at="2025-08-03T19:08:45 IST" duration-ms="204" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchSessionException">
             <message>
               <![CDATA[Session ID is null. Using WebDriver after calling quit()?
 Build info: version: '4.21.0', revision: '79ed462ef4'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
 Command: [null, close {}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.184, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\dell\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64846}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64846/devtoo..., se:cdpVersion: 138.0.7204.184, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.184, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\dell\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50771}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50771/devtoo..., se:cdpVersion: 138.0.7204.184, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
 Build info: version: '4.21.0', revision: '79ed462ef4'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
 Command: [null, close {}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.184, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\dell\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64846}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64846/devtoo..., se:cdpVersion: 138.0.7204.184, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.184, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\dell\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50771}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50771/devtoo..., se:cdpVersion: 138.0.7204.184, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
 at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:151)
 at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
 at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
@@ -460,8 +470,10 @@ at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:591)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:595)
 at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:405)
 at testCases.BaseTestcase.teardown(BaseTestcase.java:57)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
 at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
@@ -469,7 +481,7 @@ at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker
 at org.testng.internal.invokers.TestMethodWorker.invokeAfterClassConfigurations(TestMethodWorker.java:238)
 at org.testng.internal.invokers.TestMethodWorker.invokeAfterClassMethods(TestMethodWorker.java:223)
 at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:137)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 at org.testng.TestRunner.privateRun(TestRunner.java:741)
 at org.testng.TestRunner.run(TestRunner.java:616)
 at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)

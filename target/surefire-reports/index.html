@@ -188,16 +188,16 @@
 	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
 	at pageObject.UserManagementPage.isSuccessToast(UserManagementPage.java:89)
 	at testCases.AdminTests.addUser(AdminTests.java:102)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//p[normalize-space()=&apos;Success&apos;]&quot;}
   (Session info: chrome=138.0.7204.184)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: &apos;4.21.0&apos;, revision: &apos;79ed462ef4&apos;
-System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;24.0.1&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.12&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [856d98f522c5397e6514ddc98cb029eb, findElement {value=//p[normalize-space()=&apos;Success&apos;], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.184, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\dell\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64632}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64632/devtoo..., se:cdpVersion: 138.0.7204.184, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 856d98f522c5397e6514ddc98cb029eb
+Command: [5fb646effe664ec5fb202fae03049cf2, findElement {value=//p[normalize-space()=&apos;Success&apos;], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.184, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\dell\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50551}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50551/devtoo..., se:cdpVersion: 138.0.7204.184, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5fb646effe664ec5fb202fae03049cf2
 	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
@@ -216,8 +216,8 @@ Session ID: 856d98f522c5397e6514ddc98cb029eb
 	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
 	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287)
 	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
-	... 33 more
-... Removed 33 stack frames
+	... 35 more
+... Removed 37 stack frames
 </div> <!-- stack-trace -->
                   <em>
 (TC13 -- add User from Usermanagement)                  </em>
@@ -232,11 +232,11 @@ Session ID: 856d98f522c5397e6514ddc98cb029eb
   (Session info: chrome=138.0.7204.184)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: &apos;4.21.0&apos;, revision: &apos;79ed462ef4&apos;
-System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;24.0.1&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.12&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [5fdfa53028126c21bd43265817736907, findElement {value=//input[@class=&apos;oxd-input oxd-input--focus&apos;], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.184, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\dell\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64583}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64583/devtoo..., se:cdpVersion: 138.0.7204.184, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 5fdfa53028126c21bd43265817736907
+Command: [03a101d969559a226fc6f798b51f8298, findElement {value=//input[@class=&apos;oxd-input oxd-input--focus&apos;], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.184, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\dell\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50505}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50505/devtoo..., se:cdpVersion: 138.0.7204.184, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 03a101d969559a226fc6f798b51f8298
 	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
@@ -253,8 +253,8 @@ Session ID: 5fdfa53028126c21bd43265817736907
 	at jdk.proxy2/jdk.proxy2.$Proxy27.sendKeys(Unknown Source)
 	at pageObject.AdminPage.setUserName(AdminPage.java:61)
 	at testCases.AdminTests.searchIinvalidUser(AdminTests.java:70)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
-... Removed 33 stack frames
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 37 stack frames
 </div> <!-- stack-trace -->
                   <em>
 (TC12 -- Search InValid User)                  </em>
@@ -459,43 +459,43 @@ data.addRows(10);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'addUser')
 data.setCell(0, 2, 'testCases.AdminTests')
-data.setCell(0, 3, 26430);
+data.setCell(0, 3, 27947);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'searchIinvalidUser')
 data.setCell(1, 2, 'testCases.AdminTests')
-data.setCell(1, 3, 14403);
+data.setCell(1, 3, 15082);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'checkUserRoleForAdmin')
 data.setCell(2, 2, 'testCases.AdminTests')
-data.setCell(2, 3, 5437);
+data.setCell(2, 3, 5442);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'LoadAdminPage')
 data.setCell(3, 2, 'testCases.AdminTests')
-data.setCell(3, 3, 5048);
+data.setCell(3, 3, 4610);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'testUrlDirection')
+data.setCell(4, 1, 'testInValidLogin')
 data.setCell(4, 2, 'testCases.LoginTests')
-data.setCell(4, 3, 2724);
+data.setCell(4, 3, 3659);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'testInValidLogin')
+data.setCell(5, 1, 'testUrlDirection')
 data.setCell(5, 2, 'testCases.LoginTests')
-data.setCell(5, 3, 2687);
+data.setCell(5, 3, 3603);
 data.setCell(6, 0, 6)
 data.setCell(6, 1, 'testvalidLogin')
 data.setCell(6, 2, 'testCases.LoginTests')
-data.setCell(6, 3, 2487);
+data.setCell(6, 3, 2985);
 data.setCell(7, 0, 7)
 data.setCell(7, 1, 'testEmptyFieldsLogin')
 data.setCell(7, 2, 'testCases.LoginTests')
-data.setCell(7, 3, 826);
+data.setCell(7, 3, 2817);
 data.setCell(8, 0, 8)
 data.setCell(8, 1, 'testOnlyUserFieldsLogin')
 data.setCell(8, 2, 'testCases.LoginTests')
-data.setCell(8, 3, 793);
+data.setCell(8, 3, 1054);
 data.setCell(9, 0, 9)
 data.setCell(9, 1, 'testOnlyPasswordFieldsLogin')
 data.setCell(9, 2, 'testCases.LoginTests')
-data.setCell(9, 3, 754);
+data.setCell(9, 3, 910);
 window.suiteTableData['Surefire_suite']= { tableData: data, tableDiv: 'times-div-Surefire_suite'}
 return data;
 }
@@ -533,98 +533,98 @@ return data;
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">LoadAdminPage</span>
-                <span class="method-start">5757 ms</span>
+                <span class="method-start">6864 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">setup(chrome, windows)</span>
-                <span class="method-start">10815 ms</span>
+                <span class="method-start">11481 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">checkUserRoleForAdmin</span>
-                <span class="method-start">15159 ms</span>
+                <span class="method-start">15934 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">setup(chrome, windows)</span>
-                <span class="method-start">20598 ms</span>
+                <span class="method-start">21377 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">searchIinvalidUser</span>
-                <span class="method-start">24709 ms</span>
+                <span class="method-start">25728 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">setup(chrome, windows)</span>
-                <span class="method-start">39119 ms</span>
+                <span class="method-start">40819 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">addUser</span>
-                <span class="method-start">43753 ms</span>
+                <span class="method-start">45204 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">teardown</span>
-                <span class="method-start">70190 ms</span>
+                <span class="method-start">73156 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testCases.LoginTests</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setup(chrome, windows)</span>
-                <span class="method-start">70984 ms</span>
+                <span class="method-start">73394 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testvalidLogin</span>
-                <span class="method-start">76927 ms</span>
+                <span class="method-start">77746 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">setup(chrome, windows)</span>
-                <span class="method-start">79415 ms</span>
+                <span class="method-start">80733 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testInValidLogin</span>
-                <span class="method-start">84002 ms</span>
+                <span class="method-start">85286 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">setup(chrome, windows)</span>
-                <span class="method-start">86691 ms</span>
+                <span class="method-start">88949 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testEmptyFieldsLogin</span>
-                <span class="method-start">91504 ms</span>
+                <span class="method-start">93968 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">setup(chrome, windows)</span>
-                <span class="method-start">92333 ms</span>
+                <span class="method-start">96786 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testOnlyUserFieldsLogin</span>
-                <span class="method-start">97136 ms</span>
+                <span class="method-start">101248 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">setup(chrome, windows)</span>
-                <span class="method-start">97933 ms</span>
+                <span class="method-start">102303 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testOnlyPasswordFieldsLogin</span>
-                <span class="method-start">102627 ms</span>
+                <span class="method-start">108887 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">setup(chrome, windows)</span>
-                <span class="method-start">103384 ms</span>
+                <span class="method-start">109798 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testUrlDirection</span>
-                <span class="method-start">108226 ms</span>
+                <span class="method-start">114685 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">teardown</span>
-                <span class="method-start">110951 ms</span>
+                <span class="method-start">118289 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
