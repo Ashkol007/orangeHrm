@@ -48,7 +48,7 @@ public class BaseTestcase {
 	  
 	}
 	
-	@AfterMethod
+	@AfterClass
 	public void teardown(){
 		if (driver != null) {
             System.out.println(">> AfterMethod: Closing browser");

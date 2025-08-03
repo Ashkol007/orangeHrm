@@ -1,0 +1,4 @@
+18:33:48.280 [main] INFO  testCases.AdminTests - -----------Load Admin page TestCase Start------------
+18:33:53.212 [main] INFO  testCases.AdminTests - ---------Load Admin page Testcase Passed---------
+18:33:58.080 [main] INFO  testCases.LoginTests - -----------Login Valid TestCase ------------
+18:34:00.944 [main] INFO  testCases.LoginTests - ---------LoginValid Testcase Passed---------
